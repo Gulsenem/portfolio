@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    color: #626C88;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color:   #d2dbd6  ;
+    font-size: 1.1em;
+}
+.wrapper
+{
+    max-width: 1200px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 70px;
+}
+.flex_center
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1
+{
+    margin:0;
+}
+a
+{
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.logo h1
+{
+    color:#6edfb7;
+}
