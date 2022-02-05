@@ -66,8 +66,7 @@ a
 }
 a:hover
 {
-    
-    font-weight: bold;
+    border-bottom: 3px solid var(--accent);
 }
 section
 {
@@ -80,7 +79,7 @@ button
     padding: 6px 24px;
     border:none;
     outline:none;
-    background-color:var(--accent);
+   
     color:white;
     font-weight: bold;
     cursor:pointer;
@@ -89,28 +88,33 @@ button
     border-radius: var(--radius);
 
 }
-button:hover
-{
-    background-color: #6dc9a9;
-}
+
 
 /*******************header*************************/
-
+header
+{
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: 10px;
+}
 .logo 
 {
     margin-right: 250px;
 }
-.logo h1
+.logo h1 
 {
     color:#6edfb7;
 }
 .ich img
 {
-    width: 350px;
+    width: 400px;
+ 
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
 }
 .ich
 {
-    margin: 0 50px;
+    margin: 0 30px;
 }
 .text>span
 {
@@ -119,13 +123,12 @@ button:hover
 }
 .text>b
 {
-    color: #c2d4ca ;
     font-size: 1.4em;
 }
-.btn
+.quote p, i
 {
-    margin: 30px 0;
-    text-align: center;
+    margin: 50px 0;
+    text-align: right;
 }
 .kontakt
 {
@@ -154,7 +157,6 @@ button:hover
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--secondary);
     font-size: 1.6em;
 
     position: absolute;
@@ -164,9 +166,10 @@ button:hover
     z-index: 1;
 
 }
-.green
+
+.blau
 {
-    background-color: var(--secondary); 
+    background-color: rgb(123, 231, 245); 
 }
 .gelb
 {
@@ -176,12 +179,48 @@ button:hover
 {
     background-color: rgb(216, 162, 226);
 }
+
 .projekt_text
 {
     width: 50%;
     margin: 0 50px;
     padding: 20px;
     z-index: 2;
+}
+.projekt_text span
+{
+    color:var(--accent);
+}
+.projekt_box .projekt_text .btn 
+{
+    text-align: left;
+    margin-right: 50px;
+}
+.projekt_box .projekt_text .btn button
+{
+    margin-right: 50px;
+}
+.pri_btn
+{
+    background-color: ;
+}
+.bor_pink
+{
+    border: 2px solid rgb(216, 162, 226);
+    background-color: white;
+    color: rgb(216, 162, 226);
+}
+.bor_gelb
+{
+    border: 2px solid rgb(242, 220, 166);
+    background-color: white;
+    color: rgb(242, 220, 166);
+}
+.bor_blau
+{
+    border: 2px solid rgb(123, 231, 245);
+    background-color: white;
+    color: rgb(123, 231, 245);
 }
 .projekt_bild
 {
@@ -194,5 +233,6 @@ button:hover
 /******************footer**********************/
 footer
 {
-    background-color: var(--primary);
+    border-top: 2px solid var(--secondary);
+    padding: 20px;
 }
