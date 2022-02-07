@@ -26,6 +26,8 @@ body
     border-radius: 10px;
     margin: 50px auto;
     padding: 30px 80px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5); 
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5);
 }
 .flex_center
 {
@@ -234,5 +236,5 @@ header
 footer
 {
     border-top: 2px solid var(--secondary);
-    padding: 20px;
+    
 }
