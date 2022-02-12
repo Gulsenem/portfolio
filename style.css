@@ -22,12 +22,11 @@ body
 {
     max-width: 1200px;
 
-    background-color: white;
-    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(241,244,242,1) 3%, rgba(255,255,255,1) 42%, rgba(210,219,214,1) 70%, rgba(255,255,255,1) 99%);border-radius: 10px;
     margin: 50px auto;
     padding: 30px 80px;
-    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5); 
-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.2);
 }
 .flex_center
 {
@@ -66,7 +65,7 @@ a
     margin-left: 30px;
     text-decoration: none;
 }
-a:hover
+nav a:hover
 {
     border-bottom: 3px solid var(--accent);
 }
@@ -108,7 +107,7 @@ header
 }
 .ich img
 {
-    width: 400px;
+    width: 300px;
  
     border-radius: 20px;
     box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
@@ -127,11 +126,7 @@ header
 {
     font-size: 1.4em;
 }
-.quote p, i
-{
-    margin: 50px 0;
-    text-align: right;
-}
+
 .kontakt
 {
     display:flex;
@@ -151,7 +146,7 @@ header
 }
 .projekt_box
 {
-    margin-bottom:50px;
+    margin-top: 80px;
     position: relative;
 }
 .projekt_zahl
@@ -181,6 +176,7 @@ header
 {
     background-color: rgb(216, 162, 226);
 }
+
 
 .projekt_text
 {
@@ -231,11 +227,18 @@ header
 .projekt_bild img
 {
     width: 450px;
+    border-radius: var(--radius);
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3); 
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.3);
+}
+.projekt_bild img:hover
+{
+ transform: scale(1.1,1.1);
+ transition: transform 1s;
 }
 /******************footer**********************/
 footer
 {
+    padding-top: 20px;
     border-top: 2px solid var(--secondary);
 }

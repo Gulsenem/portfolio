@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">   
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="wrapper">
@@ -27,17 +28,12 @@
 
         <main>
             <section class="sp_btw">
-            	<div class="ich">
-                    <img src="senem.jpg" alt="">
-                </div>
+
                 <div class="text">
                     Hallo, ich bin <br>
                     <span>Ogulsenem Durdyyeva</span> <br>
                      <b> Full-Stack-web-entwicklerin</b> 
-                    <div class="quote"><p><i>
-                        "Everything must be made as simple as possible, but not simpler."</i>
-                        <br> Albert Einschtein
-                    </p> </div> 
+
 
                     <div class="kontakt">
                         <div> 
@@ -57,25 +53,31 @@
                               
             </section>
 
-            <section id="uber_mich" >
-                <h2>Über mich</h2>
-                <div class="container">
-                    Ich bin ein Full-Stack-Web-Entwicklerin. Warum Full-Stack-Web-Entwickler? 
-                    Die Antwort ist, dass meine persönlichen Eigenschaften mit einer 
-                    Leidenschaft integriert sind. Als Physiker liebe ich es, logische, 
-                    mathematische Probleme zu verstehen, wir lieben es, Code zu schreiben, 
-                    wir lieben es, mit meiner Lehrerfahrung zu entwerfen.
+            <section id="uber_mich"  >
+                <h2 data-aos="fade-up" data-aos-duration="2500">Über mich</h2>
+                <div class="container sp_btw">
+                    <div class="ich" data-aos="fade-right" data-aos-duration="2500">
+                        <img src="senem.jpg" alt="">
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="2500">
+                        Ich bin ein Full-Stack-Web-Entwicklerin. Warum Full-Stack-Web-Entwickler? 
+                        Die Antwort ist, dass meine persönlichen Eigenschaften mit einer 
+                        Leidenschaft integriert sind. Als Physiker liebe ich es, logische, 
+                        mathematische Probleme zu verstehen, wir lieben es, Code zu schreiben, 
+                        wir lieben es, mit meiner Lehrerfahrung zu entwerfen.                       
+                    </div>
+
                 </div>
 
             </section>
             <section id="meine_projekt">
-                <h2>Meine Projekte</h2>
+                <h2 data-aos="fade-up" data-aos-duration="3000">Meine Projekte</h2>
                 <div class="container">
-                    <div class="projekt_box flex_center">
-                        <div class="projekt_zahl flex_center pink">
+                    <div class="projekt_box flex_center" >
+                        <div class="projekt_zahl flex_center pink" data-aos="fade-down" data-aos-duration="2500">
                             1
                         </div>
-                        <div class="projekt_text">
+                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
                             <b> <u>Pomodoro timer</u> </b> 
                             <p>
                                 Die Pomodoro-Technik ist eine Zeitmanagementmethode, 
@@ -87,19 +89,19 @@
                             </p>   
                             <div class="btn ">
                                 <button class="pink">Live sehen</button>
-                                <button class="bor_pink">Quellcode</button>
+                              <a href="https://github.com/Gulsenem/pomodoro">  <button class="bor_pink">Quellcode</button></a>
                             </div>  
                         </div>
-                        <div class="projekt_bild flex_center">
+                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
                             <img src="pom1.png" alt="">
                         </div>
                     </div>
 
                     <div class="projekt_box flex_center">
-                        <div class="projekt_zahl flex_center gelb">
+                        <div class="projekt_zahl flex_center gelb" data-aos="fade-down" data-aos-duration="2500">
                             2
                         </div>
-                        <div class="projekt_text">
+                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
                             <b> <u>Kochrezepte</u> </b> 
                             <p>
                                 Die Pomodoro-Technik ist eine Zeitmanagementmethode, 
@@ -111,19 +113,19 @@
                             </p>   
                             <div class="btn ">
                                 <button class="gelb">Live sehen</button>
-                                <button class="bor_gelb">Quellcode</button>
+                                <a href="https://github.com/Gulsenem/htdocs/tree/main/yemek_tarifi"><button class="bor_gelb">Quellcode</button></a>
                             </div>  
                         </div>
-                        <div class="projekt_bild flex_center">
+                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
                             <img src="kRez.png" alt="">
                         </div>
                     </div>
 
                     <div class="projekt_box flex_center">
-                        <div class="projekt_zahl flex_center blau">
+                        <div class="projekt_zahl flex_center blau" data-aos="fade-down" data-aos-duration="2500">
                             3
                         </div>
-                        <div class="projekt_text">
+                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
                             <b> <u>Social Media App</u> </b> 
                             <p>
                                 Die Pomodoro-Technik ist eine Zeitmanagementmethode, 
@@ -135,10 +137,10 @@
                             </p>   
                             <div class="btn">
                                 <button class="blau">Live sehen</button>
-                                <button class="bor_blau">Quellcode</button>
+                                <a href="https://github.com/Gulsenem/htdocs/tree/main/test"><button class="bor_blau">Quellcode</button></a>
                             </div>  
                         </div>
-                        <div class="projekt_bild flex_center">
+                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
                             <img src="scm.png" alt="">
                         </div>
                     </div>
@@ -146,7 +148,7 @@
 
 
             </section>
-            <section id="my_skills" >
+            <section id="my_skills" data-aos="fade-up" data-aos-duration="2500">
                 <h2>Meine Skills und Tools</h2>
                 <div class="container sp_btw">
                     <div class="front_end">
@@ -182,13 +184,14 @@
         </main>
 
         <footer id="footer" class="sp_btw">
-            <span><i class="fas fa-phone-alt"></i> +49 1578 2700480</span>
-            <span><i class="fas fa-envelope"></i>  senem@durdyyeva.com</span>
+            <span> <a href="tel:+49 1578 2700480 "> <i class="fas fa-phone-alt"></i> +49 1578 2700480</a></span>
+            <span> <a href="mailto:senem@durdyyeva.com"> <i class="fas fa-envelope"></i>  senem@durdyyeva.com</a></span>
             <span> <a href="https://github.com/Gulsenem"><i class="fab fa-github"></i> Gülsenem</span></a>
-            <span><a href=""><i class="fab fa-linkedin"></i></span></a>
+            <span><a href=""><i class="fab fa-linkedin"></i> Gülsenem</span></a>
         </footer>
 
     </div>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
