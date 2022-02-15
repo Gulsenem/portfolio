@@ -1,0 +1,11 @@
+    /****************footer***************/
+    footer .sp_btw
+    { 
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    footer div 
+    {
+        margin: 2px 0;
+    }
