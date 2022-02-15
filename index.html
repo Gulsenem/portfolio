@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">   
+    
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="smallscreen.css">
 </head>
 <body>
     <div class="wrapper">
@@ -25,6 +28,15 @@
                     <a href="#footer">kontakt</a>
 
                 </nav>
+                <button onclick="hamburger()"><i class="fal fa-bars"></i></button>
+                <div id="hamburger" data-aos="fade-left" data-aos-duration="2500">
+                    
+                    <a href="">portfolio</a>
+                    <a href="#uber_mich">über mich</a>
+                    <a href="#meine_projekt">meine Projekte</a>
+                    <a href="#my_skills">meine Skills</a>
+                    <a href="#footer">kontakt</a>
+                </div>
             </header>            
        
         
