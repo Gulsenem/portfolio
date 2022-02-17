@@ -108,9 +108,9 @@ button
 }
 header
 {
-
-    padding-bottom: 10px;
     
+    padding-bottom: 10px;
+    position: relative;
 }
 header nav{
     z-index: 2;
@@ -124,13 +124,14 @@ header nav{
 {
     color:#fdfdfd;
 }
-header button
+header 
 {
     display:none;
 }
-header button i
+header> i
 {
-    font-size: 1.4em;
+    font-size: 2em;
+    color:white;
 }
 #hamburger
 {
@@ -144,16 +145,27 @@ header button i
     padding: 10px;
     box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
     -webkit-box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 20%);
+
+    position:absolute;
+    top:10px;
+    right: 10px;
+
 }
-#hamburger >*
+#hamburger >a
 {
     padding:  10px;
     margin: 0 ;
 }
-#hamburger >*:hover
+#hamburger >a:hover
 {
     background-color: var(--accent);
     border-radius: var(--radius);
+}
+#hamburger> i
+{
+    color:var(--accent);
+    text-align: right;
+    padding-right: 10px;
 }
 /****************slider section**************/
 #slider_section

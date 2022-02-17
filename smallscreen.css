@@ -1,11 +1,111 @@
-    /****************footer***************/
-    footer .sp_btw
-    { 
-        display: flex;
-        flex-direction: column; 
-        align-items: flex-start;
-    }
-    footer div 
+
+    @media  (max-width: 480px)
     {
-        margin: 2px 0;
+        .wrapper
+        {
+            max-width: 420px;
+            padding: 20px;
+        }
+        /***********Header*******************/
+        .primary
+        {
+           /* width: 100%;
+            height:150px; 
+            border-bottom-left-radius: 70px;
+            border-top-right-radius: 70px;*/
+            display:none;
+        }
+        header
+        {
+            background-color: var(--accent);
+            padding: 20px 30px;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+        }
+        nav 
+        {
+            display:none;
+        }
+        header button
+        {
+            display:block;
+            z-index: 2;
+        }
+        /**************slider section************/
+        #slider_section .text span
+        {
+            color:var(--accent);
+        }
+        .ich
+        {
+            position:unset;
+            
+        }
+        .ich img
+        {
+            width: 100%;
+            height: 400px;
+            box-shadow: 0px 50px 100px 0px rgb(155, 212, 214);
+            -webkit-box-shadow: 0px 50px 100px 0px rgb(155, 212, 214);
+        }
+      
+        
+        /*************über mich********************/
+        #uber_mich div
+        {
+            width: 100%;
+            margin-top:0;
+            padding: 0px 30px;
+            text-align: center;
+        }
+        #uber_mich div h2
+        {
+            margin-top:0;
+        }
+       
+        /************Meine Projekt*************/
+
+        .projekt_box
+        {
+            display: block;
+            padding: 0 30px;
+            margin:0;
+        }
+        .projekt_text
+        {
+            width: 100%;
+            margin: 20px auto;
+            text-align: center;
+            
+        }
+        .projekt_text .btn>*
+        {
+            margin:0;
+        }
+        .projekt_zahl 
+        {
+            display:none;
+        }
+        .projekt_bild img
+        {
+            width: 100%;
+        }
+        /************meine-skills*************/
+        #my_skills .sp_btw
+        {
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+        /****************footer***************/
+        footer .sp_btw
+        { 
+            display: flex;
+            flex-direction: column; 
+
+        }
+        footer div 
+        {
+            margin: 5px 0;
+        }
+        
     }

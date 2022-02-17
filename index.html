@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">   
-    <link rel="stylesheet" media="screen and (min-width: 768px)" href="widescreen.css">
+    <link rel="stylesheet"  href="widescreen.css">
     <link rel="stylesheet" media="screen and (max-width: 480px)" href="smallscreen.css">
 </head>
 <body>
@@ -28,9 +28,9 @@
                     <a href="#footer">kontakt</a>
 
                 </nav>
-                <button onclick="hamburger()"><i class="fal fa-bars"></i></button>
+                <i class="fal fa-bars" onclick="hamburger()" id="hamburger_btn"></i>
                 <div id="hamburger" data-aos="fade-left" data-aos-duration="2500">
-                    
+                    <i class="fas fa-times" onclick="hamb_X()"></i>
                     <a href="">portfolio</a>
                     <a href="#uber_mich">über mich</a>
                     <a href="#meine_projekt">meine Projekte</a>
