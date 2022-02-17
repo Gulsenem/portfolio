@@ -25,7 +25,7 @@
     {
         display:none;
     }
-    header button
+    header #hamburger_btn
     {
         display:block;
         z-index: 2;

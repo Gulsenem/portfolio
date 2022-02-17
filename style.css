@@ -124,14 +124,11 @@ header nav{
 {
     color:#fdfdfd;
 }
-header 
-{
-    display:none;
-}
-header> i
+header #hamburger_btn
 {
     font-size: 2em;
     color:white;
+    display: none;
 }
 #hamburger
 {
@@ -216,6 +213,7 @@ header> i
 {
     width: 500px;
     margin: 50px 0;
+    margin-top:120px;
 }
 #uber_mich span
 {
