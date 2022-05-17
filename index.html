@@ -8,7 +8,7 @@
 
     
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">   
     <link rel="stylesheet"  href="widescreen.css">
     <link rel="stylesheet"  href="smallscreen.css">
@@ -29,7 +29,7 @@
 
                 </nav>
                 <i class="fal fa-bars" onclick="hamburger()" id="hamburger_btn"></i>
-                <div id="hamburger" data-aos="fade-left" data-aos-duration="2500">
+                <div id="hamburger" >
                     <i class="fas fa-times" onclick="hamb_X()"></i>
                     <a href="">portfolio</a>
                     <a href="#uber_mich">über mich</a>
@@ -45,7 +45,7 @@
         <main>
             <section id="slider_section"  class="sp_btw">
                 
-                <div class="ich" data-aos="fade-up" data-aos-duration="2500">
+                <div class="my_img">
                     <img src="senem.jpg" alt="">
                 </div>
                
@@ -60,8 +60,8 @@
             </section>
 
             <section id="uber_mich"  >
-                    <div data-aos="fade-right" data-aos-duration="2500">
-                        <h2 data-aos="fade-up" data-aos-duration="2500">Über mich</h2>
+                    <div >
+                        <h2>Über mich</h2>
                         Ich bin ein Full-Stack-Web-Entwicklerin. <b> Warum Full-Stack-Web-Entwickler? </b>
                         Die Antwort ist, dass meine persönlichen Eigenschaften mit einer 
                         Leidenschaft integriert sind. Als <span>Physiker</span>  liebe ich es, logische, 
@@ -73,13 +73,36 @@
             </section>
 
             <section id="meine_projekt">
-                <h2 data-aos="fade-up" data-aos-duration="3000">Meine Projekte</h2>
+                <h2 >Meine Projekte</h2>
                 <div class="container">
-                    <div class="projekt_box flex_center" >
-                        <div class="projekt_zahl flex_center pink" data-aos="fade-down" data-aos-duration="2500">
+                    
+                    <div class="projekt_box flex_center">
+                        <div class="projekt_zahl flex_center blau" >
                             1
                         </div>
-                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
+                        <div class="projekt_text" >
+                            <b> <u>Social Media App</u> </b> 
+                            <p>
+                                Dies ist ein Projekt, bei dem Benutzer Inhalte erstellen, teilen und verfolgen
+                                 können. Hier habe ich die SPA-Vision mit VueJS entworfen. Ich habe mich um die korrekte Implementierung von Authentifizierung und Autorisierung gekümmert. 
+			   Ich habe auch WEB SEARCH Api von der RapidApi-Site für den Abschnitt Trends der Website verwendet.<br>
+                                <b><span>Verwendete Technologien:</span></b> HTML, CSS, JS, Vue.js,VueCli, PHP, MySQL, APIs
+                            </p>   
+                            <div class="btn">
+                                <a href="https://socialmedia.durdyyeva.com/"><button class="blau">Live sehen</button></a>
+                                <a href="https://github.com/Gulsenem/htdocs/tree/main/test"><button class="bor_blau">Quellcode</button></a>
+                            </div>  
+                        </div>
+                        <div class="projekt_bild flex_center" >
+                            <img src="scm.png" alt="">
+                        </div>
+                    </div>
+
+		<div class="projekt_box flex_center" >
+                        <div class="projekt_zahl flex_center pink" >
+                            2
+                        </div>
+                        <div class="projekt_text">
                             <b> <u>Pomodoro timer</u> </b> 
                             <p>
                                 Die Pomodoro-Technik ist eine Zeitmanagementmethode, 
@@ -90,20 +113,20 @@
                                  <b><span>Verwendete Technologien:</span></b>   HTML, CSS, JS
                             </p>   
                             <div class="btn ">
-                                <a href="http://pomodoro.durdyyeva.com/"> <button class="pink">Live sehen</button></a>
+                                <a href=https://pomodoro.durdyyeva.com/> <button class="pink">Live sehen</button></a>
                               <a href="https://github.com/Gulsenem/pomodoro">  <button class="bor_pink">Quellcode</button></a>
                             </div>  
                         </div>
-                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
+                        <div class="projekt_bild flex_center">
                             <img src="pom1.png" alt="">
                         </div>
                     </div>
 
                     <div class="projekt_box flex_center">
-                        <div class="projekt_zahl flex_center gelb" data-aos="fade-down" data-aos-duration="2500">
-                            2
+                        <div class="projekt_zahl flex_center gelb">
+                            3
                         </div>
-                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
+                        <div class="projekt_text" >
                             <b> <u>Kochrezepte</u> </b> 
                             <p>
                                 Es ist eine dynamische Webseite, die Daten aus einer PHP-basierten Datenbank abruft.
@@ -118,37 +141,16 @@
                                 <a href="https://github.com/Gulsenem/htdocs/tree/main/yemek_tarifi"><button class="bor_gelb">Quellcode</button></a>
                             </div>  
                         </div>
-                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
+                        <div class="projekt_bild flex_center" >
                             <img src="kRez.png" alt="">
                         </div>
                     </div>
 
-                    <div class="projekt_box flex_center">
-                        <div class="projekt_zahl flex_center blau" data-aos="fade-down" data-aos-duration="2500">
-                            3
-                        </div>
-                        <div class="projekt_text" data-aos="fade-right" data-aos-duration="2500">
-                            <b> <u>Social Media App</u> </b> 
-                            <p>
-                                Dies ist ein Projekt, bei dem Benutzer Inhalte erstellen, teilen und verfolgen
-                                 können. Hier habe ich die SPA-Vision mit VueJS entworfen. Außerdem habe ich 
-                                 Authentication and Authorization benutzt.<br>
-                                <b><span>Verwendete Technologien:</span></b> HTML, CSS, JS, Vue.js,VueCli, PHP, MySQL
-                            </p>   
-                            <div class="btn">
-                                <button class="blau">Live sehen</button>
-                                <a href="https://github.com/Gulsenem/htdocs/tree/main/test"><button class="bor_blau">Quellcode</button></a>
-                            </div>  
-                        </div>
-                        <div class="projekt_bild flex_center" data-aos="fade-left" data-aos-duration="2500">
-                            <img src="scm.png" alt="">
-                        </div>
-                    </div>
                 </div>
 
 
             </section>
-            <section id="my_skills" data-aos="fade-up" data-aos-duration="2500">
+            <section id="my_skills" >
                 <h2>Meine Skills und Tools</h2>
                 <div class="container sp_btw">
                     <div class="front_end">
@@ -185,7 +187,7 @@
 
         <footer id="footer" >
             <div class="sp_btw">
-                <span> <a href="tel:+49 1578 2700480 "> <i class="fas fa-phone-alt"></i> <span> +49 1578 2700480</span> </a></span>
+
                 <span> <a href="mailto:senem@durdyyeva.com"> <i class="fas fa-envelope"></i> <span> senem@durdyyeva.com</span> </a></span>               
 
                 <span> <a href="https://github.com/Gulsenem"><i class="fab fa-github"></i><span> Gülsenem</span> </a></span>
